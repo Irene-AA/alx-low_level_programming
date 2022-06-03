@@ -4,7 +4,7 @@
  * main - no arguments
  *
  * prints to the screen
- * returns 0
+ * Return:0
  *
  */
 int main(void)

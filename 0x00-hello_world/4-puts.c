@@ -3,7 +3,7 @@
  * main -no arguments
  *
  * prints using the puts function
- * Return 
+ * Return
  *
  */
 int main(void)

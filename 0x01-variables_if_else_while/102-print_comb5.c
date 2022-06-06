@@ -17,7 +17,7 @@ int main(void)
 			{
 				putchar(d);
 				putchar(c);
-				c++
+				c++;
 				putchar(d);
 				putchar(c);
 				if (d < c)

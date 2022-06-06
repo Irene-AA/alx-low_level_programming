@@ -18,13 +18,15 @@ int main(void)
 				putchar(d);
 				putchar(c);
 				putchar(' ');
-				do
-				{
+				do{
 					c++;
 					putchar(d);
 					putchar(c);
-				}
-				while (d < c);
+					if (c > '9')
+					{
+						break;
+					}
+				}while (d < c);
 				if (d < c)
 				{
 					putchar(',');

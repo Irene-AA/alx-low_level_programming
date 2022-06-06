@@ -18,7 +18,7 @@ int main(void)
 				putchar(d);
 				putchar(c);
 				putchar(' ');
-				do{
+				do {
 					c++;
 					putchar(d);
 					putchar(c);
@@ -26,7 +26,7 @@ int main(void)
 					{
 						break;
 					}
-				}while (d < c);
+				}  while (d < c);
 				if (d < c)
 				{
 					putchar(',');

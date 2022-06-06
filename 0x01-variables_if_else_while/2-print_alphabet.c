@@ -1,13 +1,19 @@
-#include <stdio.h>
-
-int main()
+#include<stdio.h>
+/**
+ * main -main function
+ * Description: prints alphabet in lower case using putchar
+ * Return:0
+ */
+int main(void)
 {
-	int x;
-	for (x = 'a'; x <= 'z'; x++)
-	{
+	char b = 'a';
 
-		putchar(x);
+	while (b <= 'z')
+	{
+		putchar(b);
+		b++;
 	}
 	putchar('\n');
+
 	return (0);
-}	
+}

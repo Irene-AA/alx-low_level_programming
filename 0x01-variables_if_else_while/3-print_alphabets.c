@@ -1,8 +1,13 @@
 #include <stdio.h>
-
-int main()
+/**
+ * main -main function
+ * Description: print alphabets in both cases
+ * Return: 0
+ */
+int main(void)
 {
 	int x;
+
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(x);
@@ -11,7 +16,7 @@ int main()
 	{
 		putchar(x);
 	}
-	putchar('\n');;
+	putchar('\n');
 	return (0);
 }
 

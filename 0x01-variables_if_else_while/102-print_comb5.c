@@ -13,10 +13,11 @@ int main(void)
 	{
 		for (c = '0'; c <= '9'; c++)
 		{
-			if (d == c)
+			while (d == c)
 			{
 				putchar(d);
 				putchar(c);
+				putchar(' ');
 				c++;
 				putchar(d);
 				putchar(c);

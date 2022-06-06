@@ -31,8 +31,8 @@ int main(void)
 				{
 					break;
 				}
-				}  while (d < c);
 			}
+			} while (d < c);
 		}
 	}
 	putchar('\n');

@@ -13,25 +13,25 @@ int main(void)
 	{
 		for (c = '0'; c <= '9'; c++)
 		{
+			do { 
 			if (d == c)
 			{
 				putchar(d);
 				putchar(c);
 				putchar(' ');
-				do {
-					c++;
-					putchar(d);
-					putchar(c);
-					if (c > '9')
-					{
-						break;
-					}
-				}  while (d < c);
+				c++;
+				putchar(d);
+				putchar(c);
 				if (d < c)
 				{
 					putchar(',');
 					putchar(' ');
 				}
+				if (c > '9')
+				{
+					break;
+				}
+				}  while (d < c);
 			}
 		}
 	}

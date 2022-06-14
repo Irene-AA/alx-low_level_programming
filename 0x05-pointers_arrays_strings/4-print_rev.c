@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<string.h>
 
 /**
@@ -8,6 +9,6 @@
 void print_rev(char *s)
 {
 	char c;
-	c = strrev(*s);
+	c = strrev((int*)s);
 	puts(c);
 }

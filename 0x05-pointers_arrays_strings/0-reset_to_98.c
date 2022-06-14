@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 /**
- * main -void function
- * Description -resets integer value
+ * reset_to_98 -void function
+ * @n: int pointer
  * Return -0
  */
 void reset_to_98(int *n)

@@ -4,6 +4,7 @@
 /**
  * print_rev -function
  * @s: char pointer
+ * Description - prints string in reverse
  */
 void print_rev(char *s)
 {

@@ -2,7 +2,7 @@
 
 /**
  * rev_string - void function
- * @s: string 
+ * @s: string
  *Description - reverses a string
  * Return: void
  */

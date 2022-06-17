@@ -15,7 +15,7 @@ char *cap_string(char *s)
 	{
 		b = 0;
 
-		while (i < caps)
+		while (b < caps)
 		{
 			if ((a == 0 || s[a - 1] == sp[b]) && (s[a] >= 97 && s[a] <= 122))
 				s[a] -= 32;

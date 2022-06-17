@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 
 /**
  * _strcat - concatenate two strings

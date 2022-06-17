@@ -42,6 +42,6 @@ void print_buffer(char *b, int size)
 		}
 		printf("\n");
 		a += 10;
-    d++
+		d++;
 	}
 }

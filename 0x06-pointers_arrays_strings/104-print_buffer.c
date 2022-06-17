@@ -32,7 +32,7 @@ void print_buffer(char *b, int size)
 		}
 		while(d < s)
 		{
-			int c = *(b + a + i);
+			int c = *(b + a + d);
 
 			if (c < 32 || c > 132)
 			{

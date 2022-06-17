@@ -1,9 +1,11 @@
 #include<stdio.h>
 
 /**
- * _strcat - concatenate two strings with no terminating null and n bytes
+ * _strncat - char function
+ * Description - concatenate two strings with no terminating null and n bytes
  * @dest: char string to concatenate to
  * @src: char string
+ * @n: number of bytes
  * Return: pointer to resulting string dest
  */
 

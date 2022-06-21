@@ -2,6 +2,8 @@
 
 /**
   * _memset - Fill memory with a constant byte
+  * Description: Fill the first `n` bytes of the memory area pointed to by `s`
+  * with the constant byte `b`.
   * @s: memory area
   * @b: constant byte
   * @n: bytes of memory

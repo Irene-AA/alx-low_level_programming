@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main: main function
- * Description: prints number of arguments passed
+ * Description- prints number of arguments passed
  *@argc: argument size
  @argv: argument vector
  * Return: 0

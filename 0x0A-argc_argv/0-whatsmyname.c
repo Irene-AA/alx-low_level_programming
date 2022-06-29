@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * main: main function with arguments
- * Description- prints program name
+ * main- main function with arguments
+ * description- prints program name
  * @argc: argument size
  * @argv: augument vector
  * Return: 0

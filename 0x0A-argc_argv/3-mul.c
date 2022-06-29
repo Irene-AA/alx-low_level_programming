@@ -4,7 +4,7 @@
  * main: main function
  * @argc: argument size
  * @argv: argument vector
- * Description: multiplies two integers
+ * Description- multiplies two integers
  * Return: 1 if error, 0
  */
 

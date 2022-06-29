@@ -3,7 +3,7 @@
  * main: main function
  * @argc: argument size
  * @argv: argument vector
- * Description: prints all arguments
+ * Description- prints all arguments
  * Return: 0
  */
 

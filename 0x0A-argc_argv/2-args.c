@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main: main function
+ * main- main function
  * @argc: argument size
  * @argv: argument vector
  * Description- prints all arguments

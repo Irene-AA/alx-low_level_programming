@@ -11,7 +11,7 @@
 char *_strdup(char *str)
 {
 	char *d;
-	int i;
+	unsigned long int i;
 
 	d = malloc(sizeof(char) * 100);
 	if (str == NULL)
@@ -19,8 +19,8 @@ char *_strdup(char *str)
 	for (i = 0; i < strlen(str); i++)
 	{
 		d[i] = str[i];
-		if (d > sizeof(d))
-			return (NULL);
+		/*if (sizeof(d) > sizeof(char))
+			return (NULL);**/
 	}
 	return (d);
 }

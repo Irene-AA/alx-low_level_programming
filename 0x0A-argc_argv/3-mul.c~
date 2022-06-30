@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
- * main- main function
+ * main: main function
  * @argc: argument size
  * @argv: argument vector
  * Description- multiplies two integers
@@ -12,11 +12,10 @@ int main(int argc, char *argv[])
 {
 	int res;
 
-	if (argc > 1)
-	{
+	do {
 		res = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", res);
-	}
+	} while (argc--);
 	if (argc < 3)
 	{
 		printf("Error\n");

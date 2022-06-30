@@ -2,9 +2,10 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
- * main- frees allocated mem in 2D grid
+ * free_grid- void function
  * @grid: grid
  * @height: height
+ * Description: frees memory in 2D grid
  */
 
 void free_grid(int **grid, int height)

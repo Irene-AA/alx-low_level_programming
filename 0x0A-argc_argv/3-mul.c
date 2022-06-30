@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		printf("%d\n", res);
 		a = 0;
 	}
-	if (argc < 2)
+	else
 	{
 		printf("Error\n");
 		a = 1;

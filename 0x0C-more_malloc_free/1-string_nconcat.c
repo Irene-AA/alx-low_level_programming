@@ -19,7 +19,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 
-	a = (unsigned int)_strlen(s1);
+	a = (unsigned int)strlegn(s1);
 	p = malloc((a + n + 1) * sizeof(char));
 	if (p == NULL)
 		return (NULL);
@@ -36,12 +36,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 }
 
 /**
- * _strlen- finds length of string
- * @s: string
+ * strlegn- finds length of string
+ * @str: string
  * Return: length of string
  */
 
-int _strlen(char *str)
+int strlegn(char *str)
 {
 	int i;
 

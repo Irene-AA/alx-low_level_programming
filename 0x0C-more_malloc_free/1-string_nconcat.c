@@ -10,7 +10,7 @@
  */
 
 /**
- * _strlen - find length of string
+ * _strlen- finds length of string
  * @s: string
  * Return: length of string
  */
@@ -27,7 +27,7 @@ int _strlen(char *str)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *p;
-	int a, b, c;
+	unsigned int a, b, c;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -41,11 +41,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (b = 0, c = 0; b < (a + n); b++)
 	{
 		if (b < a)
-			p[i] = s1[i];
+			p[b] = s1[b];
 		else
-			p[i] = s2[c++];
+			p[b] = s2[c++];
 	}
-	p[i] = '\0';
+	p[b] = '\0';
 
 	return (p);
 }

@@ -10,8 +10,8 @@
 
 int *array_range(int min, int max)
 {
-	char *p;
-	unsigned int a = 0;
+	int *p;
+	int a = 0;
 
 	p = malloc(max - min + 1);
 	if (p == NULL)

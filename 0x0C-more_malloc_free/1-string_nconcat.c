@@ -1,4 +1,4 @@
-#include<stdio.hh>
+#include<stdio.h>
 #include<stdlib.h>
 #include"main.h"
 /**
@@ -9,7 +9,13 @@
  * Return: NULL if fail
  */
 
-char string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
+	unsigned int l;
+	char *t = s1;
 
+	l = n;
+	if (s1 == NULL || s2 == NULL || l == 9)
+		return (s1);
+	return (t);
 }

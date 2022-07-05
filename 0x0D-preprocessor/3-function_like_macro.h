@@ -1,3 +1,4 @@
-#ifndef ABS
+#ifndef THREE_MACRO_LIKE_FUNCTION
+#define THREE_MACRO_LIKE_FUNCTION
 #define ABS(x) ((x) < 0 ? (-(x)): (x))
-#endif /* ABS */
+#endif /* THREE_MACRO_LIKE_FUNCTION */

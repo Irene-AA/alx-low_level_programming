@@ -6,13 +6,13 @@
  * @a: address
  * @n: number of bytes
  */
-void print_opcodes(char *a, int n)
+void print_opcodes(char *c, int n)
 {
 	int i;
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%.2hx", a[i]);
+		printf("%.2hhx", c[i]);
 		if (i < n - 1)
 			printf(" ");
 	}
@@ -40,6 +40,6 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(2);
 	}
-	print_opcodes((char *)argv, n);
+	print_opcodes((char *)&main, n);
 	return (0);
 }

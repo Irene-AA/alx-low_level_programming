@@ -7,18 +7,18 @@
  */
 void printchar(va_list a)
 {
-	printf("%c", va_arg(a, int);
+	printf("%c", va_arg(a, int));
 }
 
 /**
  * printstr - prints string type
- * @list: va_list passed
+ * @a: va_list passed
  */
 void printstr(va_list a)
 {
 	char *s;
 
-	s = va_arg(list, char *);
+	s = va_arg(a, char *);
 	if (s == NULL)
 		s = "(nil)";
 	printf("%s", s);
@@ -26,20 +26,20 @@ void printstr(va_list a)
 
 /**
  * printfloat - prints float type
- * @list: va_list passed
+ * @a: va_list passed
  */
 void printfloat(va_list a)
 {
-	printf("%f", va_arg(list, double));
+	printf("%f", va_arg(a, double));
 }
 
 /**
  * printint - prints int type
- * @list: va_list passed
+ * @a: va_list passed
  */
 void printint(va_list a)
 {
-	printf("%d", va_arg(list, int));
+	printf("%d", va_arg(a, int));
 }
 
 /**
@@ -65,7 +65,7 @@ void print_all(const char * const format, ...)
 	while (format != NULL && format[i / 4] != '\0')
 	{
 		j = i % 4;
-		if (p[j].type[0] == format[i / 4])
+		if (p[j].t[0] == format[i / 4])
 		{
 			printf("%s", sp);
 			p[j].f(b);

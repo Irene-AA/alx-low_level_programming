@@ -3,7 +3,7 @@
 
 /**
  * print_opcodes - prints opcodes
- * @a: address
+ * @c: address
  * @n: number of bytes
  */
 void print_opcodes(char *c, int n)

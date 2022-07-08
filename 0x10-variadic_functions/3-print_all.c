@@ -52,7 +52,7 @@ void print_all(const char * const format, ...)
 	va_list b;
 	char *sp;
 
-	checker storage[] = {
+	ch p[] = {
 		{ "c", printchar },
 		{ "f", printfloat },
 		{ "s", printstr },
@@ -65,10 +65,10 @@ void print_all(const char * const format, ...)
 	while (format != NULL && format[i / 4] != '\0')
 	{
 		j = i % 4;
-		if (storage[j].type[0] == format[i / 4])
+		if (p[j].type[0] == format[i / 4])
 		{
 			printf("%s", sp);
-			storage[j].f(b);
+			p[j].f(b);
 			sp = ", ";
 		}
 		i++;

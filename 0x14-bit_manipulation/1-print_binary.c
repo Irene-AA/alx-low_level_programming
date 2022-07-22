@@ -15,10 +15,10 @@ void print_binary(unsigned long int n)
 		printf("0");
 		return;
 	}
-  temp = n, shift = 0;
-  while (temp >>= 1)
-    shift++;
-  
+	temp = n, shift = 0;
+	while (temp >>= 1)
+	shift++;
+
 	for (; shift >= 0; shift--)
 	{
 		if ((n >> shift) & 1)
